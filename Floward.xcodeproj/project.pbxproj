@@ -7,15 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1D5E26FA3C1A1DA3FA4A8CAC /* Pods_Floward_FlowardUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FACCFD16A97B4FB1D3F0CB6C /* Pods_Floward_FlowardUITests.framework */; };
+		8349ACCA958E3DDDDFA7DFDD /* Pods_Floward.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FE469C14EF559209C4C22DA /* Pods_Floward.framework */; };
 		841F49D3291BCCF900A4271F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841F49D2291BCCF900A4271F /* AppDelegate.swift */; };
-		841F49D5291BCCF900A4271F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841F49D4291BCCF900A4271F /* SceneDelegate.swift */; };
-		841F49D7291BCCF900A4271F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841F49D6291BCCF900A4271F /* ViewController.swift */; };
 		841F49DA291BCCF900A4271F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 841F49D8291BCCF900A4271F /* Main.storyboard */; };
 		841F49DC291BCCFB00A4271F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 841F49DB291BCCFB00A4271F /* Assets.xcassets */; };
 		841F49DF291BCCFB00A4271F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 841F49DD291BCCFB00A4271F /* LaunchScreen.storyboard */; };
 		841F49EA291BCCFC00A4271F /* FlowardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841F49E9291BCCFC00A4271F /* FlowardTests.swift */; };
 		841F49F4291BCCFC00A4271F /* FlowardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841F49F3291BCCFC00A4271F /* FlowardUITests.swift */; };
 		841F49F6291BCCFC00A4271F /* FlowardUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841F49F5291BCCFC00A4271F /* FlowardUITestsLaunchTests.swift */; };
+		847E00F8291BF77C0075DD55 /* ExtUIImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847E00F7291BF77C0075DD55 /* ExtUIImageView.swift */; };
+		84A19004291BD2E800C6D4F3 /* BasicVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A19003291BD2E800C6D4F3 /* BasicVC.swift */; };
+		84A19006291BD33A00C6D4F3 /* BasicTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A19005291BD33A00C6D4F3 /* BasicTVCell.swift */; };
+		84A19008291BD38200C6D4F3 /* FirstVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A19007291BD38200C6D4F3 /* FirstVC.swift */; };
+		84A1900A291BD39E00C6D4F3 /* SecondVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A19009291BD39E00C6D4F3 /* SecondVC.swift */; };
+		84A1900C291BD3D100C6D4F3 /* UserML.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A1900B291BD3D100C6D4F3 /* UserML.swift */; };
+		84A1900E291BD3DA00C6D4F3 /* PostML.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A1900D291BD3DA00C6D4F3 /* PostML.swift */; };
+		84A19010291BD4C700C6D4F3 /* BaseRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A1900F291BD4C700C6D4F3 /* BaseRouter.swift */; };
+		84A19012291BD5B800C6D4F3 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A19011291BD5B800C6D4F3 /* APIManager.swift */; };
+		84A19014291BD6A400C6D4F3 /* ResourceRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A19013291BD6A400C6D4F3 /* ResourceRouter.swift */; };
+		84A19016291BD7FA00C6D4F3 /* NetworkStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A19015291BD7FA00C6D4F3 /* NetworkStatus.swift */; };
+		84A1901B291BE03B00C6D4F3 /* UserTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A19019291BE03A00C6D4F3 /* UserTVCell.swift */; };
+		84A1901C291BE03B00C6D4F3 /* UserTVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84A1901A291BE03A00C6D4F3 /* UserTVCell.xib */; };
+		84A1901F291BE09000C6D4F3 /* PostTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A1901D291BE09000C6D4F3 /* PostTVCell.swift */; };
+		84A19020291BE09000C6D4F3 /* PostTVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84A1901E291BE09000C6D4F3 /* PostTVCell.xib */; };
+		EC536BD3478F5856EA793A19 /* Pods_FlowardTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EE9F3EBB1B18B332B5030A5 /* Pods_FlowardTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,10 +52,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		02DE9251D93229DFEEC20104 /* Pods-FlowardTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlowardTests.debug.xcconfig"; path = "Target Support Files/Pods-FlowardTests/Pods-FlowardTests.debug.xcconfig"; sourceTree = "<group>"; };
+		0AA9F236A5A99D9BA2A4B134 /* Pods-Floward.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Floward.release.xcconfig"; path = "Target Support Files/Pods-Floward/Pods-Floward.release.xcconfig"; sourceTree = "<group>"; };
+		1FE469C14EF559209C4C22DA /* Pods_Floward.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Floward.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		37ADCA2D6BD2F92D20EC8BCB /* Pods-Floward-FlowardUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Floward-FlowardUITests.release.xcconfig"; path = "Target Support Files/Pods-Floward-FlowardUITests/Pods-Floward-FlowardUITests.release.xcconfig"; sourceTree = "<group>"; };
+		5BDC331CD70F5DB77149AED7 /* Pods-Floward-FlowardUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Floward-FlowardUITests.debug.xcconfig"; path = "Target Support Files/Pods-Floward-FlowardUITests/Pods-Floward-FlowardUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		6EE9F3EBB1B18B332B5030A5 /* Pods_FlowardTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FlowardTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		841F49CF291BCCF900A4271F /* Floward.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Floward.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		841F49D2291BCCF900A4271F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		841F49D4291BCCF900A4271F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		841F49D6291BCCF900A4271F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		841F49D9291BCCF900A4271F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		841F49DB291BCCFB00A4271F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		841F49DE291BCCFB00A4271F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +69,24 @@
 		841F49EF291BCCFC00A4271F /* FlowardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlowardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		841F49F3291BCCFC00A4271F /* FlowardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlowardUITests.swift; sourceTree = "<group>"; };
 		841F49F5291BCCFC00A4271F /* FlowardUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlowardUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		847E00F7291BF77C0075DD55 /* ExtUIImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtUIImageView.swift; sourceTree = "<group>"; };
+		84A19003291BD2E800C6D4F3 /* BasicVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicVC.swift; sourceTree = "<group>"; };
+		84A19005291BD33A00C6D4F3 /* BasicTVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicTVCell.swift; sourceTree = "<group>"; };
+		84A19007291BD38200C6D4F3 /* FirstVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstVC.swift; sourceTree = "<group>"; };
+		84A19009291BD39E00C6D4F3 /* SecondVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondVC.swift; sourceTree = "<group>"; };
+		84A1900B291BD3D100C6D4F3 /* UserML.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserML.swift; sourceTree = "<group>"; };
+		84A1900D291BD3DA00C6D4F3 /* PostML.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostML.swift; sourceTree = "<group>"; };
+		84A1900F291BD4C700C6D4F3 /* BaseRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseRouter.swift; sourceTree = "<group>"; };
+		84A19011291BD5B800C6D4F3 /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		84A19013291BD6A400C6D4F3 /* ResourceRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResourceRouter.swift; sourceTree = "<group>"; };
+		84A19015291BD7FA00C6D4F3 /* NetworkStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkStatus.swift; sourceTree = "<group>"; };
+		84A19019291BE03A00C6D4F3 /* UserTVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserTVCell.swift; sourceTree = "<group>"; };
+		84A1901A291BE03A00C6D4F3 /* UserTVCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UserTVCell.xib; sourceTree = "<group>"; };
+		84A1901D291BE09000C6D4F3 /* PostTVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostTVCell.swift; sourceTree = "<group>"; };
+		84A1901E291BE09000C6D4F3 /* PostTVCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PostTVCell.xib; sourceTree = "<group>"; };
+		8BC5082A1805B43621888201 /* Pods-FlowardTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlowardTests.release.xcconfig"; path = "Target Support Files/Pods-FlowardTests/Pods-FlowardTests.release.xcconfig"; sourceTree = "<group>"; };
+		F94B76FAD5D637DDCEDB47FD /* Pods-Floward.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Floward.debug.xcconfig"; path = "Target Support Files/Pods-Floward/Pods-Floward.debug.xcconfig"; sourceTree = "<group>"; };
+		FACCFD16A97B4FB1D3F0CB6C /* Pods_Floward_FlowardUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Floward_FlowardUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +94,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8349ACCA958E3DDDDFA7DFDD /* Pods_Floward.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +102,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC536BD3478F5856EA793A19 /* Pods_FlowardTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +110,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1D5E26FA3C1A1DA3FA4A8CAC /* Pods_Floward_FlowardUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3604FFD110AA5DAAAEFC38CB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1FE469C14EF559209C4C22DA /* Pods_Floward.framework */,
+				FACCFD16A97B4FB1D3F0CB6C /* Pods_Floward_FlowardUITests.framework */,
+				6EE9F3EBB1B18B332B5030A5 /* Pods_FlowardTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		41A36201C90138BDD1165218 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F94B76FAD5D637DDCEDB47FD /* Pods-Floward.debug.xcconfig */,
+				0AA9F236A5A99D9BA2A4B134 /* Pods-Floward.release.xcconfig */,
+				5BDC331CD70F5DB77149AED7 /* Pods-Floward-FlowardUITests.debug.xcconfig */,
+				37ADCA2D6BD2F92D20EC8BCB /* Pods-Floward-FlowardUITests.release.xcconfig */,
+				02DE9251D93229DFEEC20104 /* Pods-FlowardTests.debug.xcconfig */,
+				8BC5082A1805B43621888201 /* Pods-FlowardTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		841F49C6291BCCF900A4271F = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +147,8 @@
 				841F49E8291BCCFC00A4271F /* FlowardTests */,
 				841F49F2291BCCFC00A4271F /* FlowardUITests */,
 				841F49D0291BCCF900A4271F /* Products */,
+				41A36201C90138BDD1165218 /* Pods */,
+				3604FFD110AA5DAAAEFC38CB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -100,11 +166,11 @@
 			isa = PBXGroup;
 			children = (
 				841F49D2291BCCF900A4271F /* AppDelegate.swift */,
-				841F49D4291BCCF900A4271F /* SceneDelegate.swift */,
-				841F49D6291BCCF900A4271F /* ViewController.swift */,
-				841F49D8291BCCF900A4271F /* Main.storyboard */,
+				841F4A04291BCD6600A4271F /* Controllers */,
+				847E00F4291BF6A10075DD55 /* Extensions */,
+				841F4A02291BCD5700A4271F /* API Manager */,
+				841F4A03291BCD5E00A4271F /* Storyboards */,
 				841F49DB291BCCFB00A4271F /* Assets.xcassets */,
-				841F49DD291BCCFB00A4271F /* LaunchScreen.storyboard */,
 				841F49E0291BCCFB00A4271F /* Info.plist */,
 			);
 			path = Floward;
@@ -127,6 +193,107 @@
 			path = FlowardUITests;
 			sourceTree = "<group>";
 		};
+		841F4A02291BCD5700A4271F /* API Manager */ = {
+			isa = PBXGroup;
+			children = (
+				84A19001291BD07C00C6D4F3 /* Models */,
+				84A19002291BD08400C6D4F3 /* Routers */,
+				84A19011291BD5B800C6D4F3 /* APIManager.swift */,
+				84A19015291BD7FA00C6D4F3 /* NetworkStatus.swift */,
+			);
+			path = "API Manager";
+			sourceTree = "<group>";
+		};
+		841F4A03291BCD5E00A4271F /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				841F49D8291BCCF900A4271F /* Main.storyboard */,
+				841F49DD291BCCFB00A4271F /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		841F4A04291BCD6600A4271F /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				84A18FFE291BCE8400C6D4F3 /* BasicVC */,
+				84A18FFF291BCE8B00C6D4F3 /* First VC */,
+				84A19000291BCE9400C6D4F3 /* Second VC */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		847E00F4291BF6A10075DD55 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				847E00F7291BF77C0075DD55 /* ExtUIImageView.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		84A18FFE291BCE8400C6D4F3 /* BasicVC */ = {
+			isa = PBXGroup;
+			children = (
+				84A19003291BD2E800C6D4F3 /* BasicVC.swift */,
+				84A19005291BD33A00C6D4F3 /* BasicTVCell.swift */,
+			);
+			path = BasicVC;
+			sourceTree = "<group>";
+		};
+		84A18FFF291BCE8B00C6D4F3 /* First VC */ = {
+			isa = PBXGroup;
+			children = (
+				84A19017291BD85200C6D4F3 /* Cells */,
+				84A19007291BD38200C6D4F3 /* FirstVC.swift */,
+			);
+			path = "First VC";
+			sourceTree = "<group>";
+		};
+		84A19000291BCE9400C6D4F3 /* Second VC */ = {
+			isa = PBXGroup;
+			children = (
+				84A19018291BD85700C6D4F3 /* Cells */,
+				84A19009291BD39E00C6D4F3 /* SecondVC.swift */,
+			);
+			path = "Second VC";
+			sourceTree = "<group>";
+		};
+		84A19001291BD07C00C6D4F3 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				84A1900D291BD3DA00C6D4F3 /* PostML.swift */,
+				84A1900B291BD3D100C6D4F3 /* UserML.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		84A19002291BD08400C6D4F3 /* Routers */ = {
+			isa = PBXGroup;
+			children = (
+				84A1900F291BD4C700C6D4F3 /* BaseRouter.swift */,
+				84A19013291BD6A400C6D4F3 /* ResourceRouter.swift */,
+			);
+			path = Routers;
+			sourceTree = "<group>";
+		};
+		84A19017291BD85200C6D4F3 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				84A19019291BE03A00C6D4F3 /* UserTVCell.swift */,
+				84A1901A291BE03A00C6D4F3 /* UserTVCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		84A19018291BD85700C6D4F3 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				84A1901D291BE09000C6D4F3 /* PostTVCell.swift */,
+				84A1901E291BE09000C6D4F3 /* PostTVCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,9 +301,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 841F49F9291BCCFC00A4271F /* Build configuration list for PBXNativeTarget "Floward" */;
 			buildPhases = (
+				B4237F39D9312E4FDEE7D1DE /* [CP] Check Pods Manifest.lock */,
 				841F49CB291BCCF900A4271F /* Sources */,
 				841F49CC291BCCF900A4271F /* Frameworks */,
 				841F49CD291BCCF900A4271F /* Resources */,
+				CAD9D5D0DD85A3FAA01F9BF0 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -151,6 +320,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 841F49FC291BCCFC00A4271F /* Build configuration list for PBXNativeTarget "FlowardTests" */;
 			buildPhases = (
+				EEC607218C91B437774D466C /* [CP] Check Pods Manifest.lock */,
 				841F49E1291BCCFC00A4271F /* Sources */,
 				841F49E2291BCCFC00A4271F /* Frameworks */,
 				841F49E3291BCCFC00A4271F /* Resources */,
@@ -169,9 +339,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 841F49FF291BCCFC00A4271F /* Build configuration list for PBXNativeTarget "FlowardUITests" */;
 			buildPhases = (
+				B5D77A8A1C8B5D0A1C4DDE2E /* [CP] Check Pods Manifest.lock */,
 				841F49EB291BCCFC00A4271F /* Sources */,
 				841F49EC291BCCFC00A4271F /* Frameworks */,
 				841F49ED291BCCFC00A4271F /* Resources */,
+				8E510F9DC83019C85F83376C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -231,8 +403,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84A1901C291BE03B00C6D4F3 /* UserTVCell.xib in Resources */,
 				841F49DF291BCCFB00A4271F /* LaunchScreen.storyboard in Resources */,
 				841F49DC291BCCFB00A4271F /* Assets.xcassets in Resources */,
+				84A19020291BE09000C6D4F3 /* PostTVCell.xib in Resources */,
 				841F49DA291BCCF900A4271F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -253,14 +427,128 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		8E510F9DC83019C85F83376C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Floward-FlowardUITests/Pods-Floward-FlowardUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Floward-FlowardUITests/Pods-Floward-FlowardUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Floward-FlowardUITests/Pods-Floward-FlowardUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B4237F39D9312E4FDEE7D1DE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Floward-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B5D77A8A1C8B5D0A1C4DDE2E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Floward-FlowardUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CAD9D5D0DD85A3FAA01F9BF0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Floward/Pods-Floward-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Floward/Pods-Floward-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Floward/Pods-Floward-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EEC607218C91B437774D466C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FlowardTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		841F49CB291BCCF900A4271F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				841F49D7291BCCF900A4271F /* ViewController.swift in Sources */,
+				84A1901F291BE09000C6D4F3 /* PostTVCell.swift in Sources */,
+				84A1901B291BE03B00C6D4F3 /* UserTVCell.swift in Sources */,
 				841F49D3291BCCF900A4271F /* AppDelegate.swift in Sources */,
-				841F49D5291BCCF900A4271F /* SceneDelegate.swift in Sources */,
+				84A1900A291BD39E00C6D4F3 /* SecondVC.swift in Sources */,
+				847E00F8291BF77C0075DD55 /* ExtUIImageView.swift in Sources */,
+				84A19008291BD38200C6D4F3 /* FirstVC.swift in Sources */,
+				84A19012291BD5B800C6D4F3 /* APIManager.swift in Sources */,
+				84A19016291BD7FA00C6D4F3 /* NetworkStatus.swift in Sources */,
+				84A1900E291BD3DA00C6D4F3 /* PostML.swift in Sources */,
+				84A1900C291BD3D100C6D4F3 /* UserML.swift in Sources */,
+				84A19006291BD33A00C6D4F3 /* BasicTVCell.swift in Sources */,
+				84A19004291BD2E800C6D4F3 /* BasicVC.swift in Sources */,
+				84A19014291BD6A400C6D4F3 /* ResourceRouter.swift in Sources */,
+				84A19010291BD4C700C6D4F3 /* BaseRouter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -432,6 +720,7 @@
 		};
 		841F49FA291BCCFC00A4271F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F94B76FAD5D637DDCEDB47FD /* Pods-Floward.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -443,8 +732,8 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -452,14 +741,18 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.Floward;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		841F49FB291BCCFC00A4271F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0AA9F236A5A99D9BA2A4B134 /* Pods-Floward.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -471,8 +764,8 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -480,14 +773,18 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.Floward;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 		841F49FD291BCCFC00A4271F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 02DE9251D93229DFEEC20104 /* Pods-FlowardTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -508,6 +805,7 @@
 		};
 		841F49FE291BCCFC00A4271F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8BC5082A1805B43621888201 /* Pods-FlowardTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -528,6 +826,7 @@
 		};
 		841F4A00291BCCFC00A4271F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5BDC331CD70F5DB77149AED7 /* Pods-Floward-FlowardUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -546,6 +845,7 @@
 		};
 		841F4A01291BCCFC00A4271F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 37ADCA2D6BD2F92D20EC8BCB /* Pods-Floward-FlowardUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
